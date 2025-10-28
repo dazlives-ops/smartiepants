@@ -745,7 +745,7 @@ $document.ready(function () {
   if (plugins.rdGoogleMaps.length) {
     var i;
 // use Daz SP API key    
-    $.getScript("//maps.google.com/maps/api/js?key=AIzaSyC5O86HfmrTjJCloc1-qeQdFEiHTNGLlqE&sensor=false&libraries=geometry,places&v=3.7", function () {
+    $.getScript("//maps.google.com/maps/api/js?key=HIDDEN-FROM-PUBLIC-GITHUB-REPOSITORY-AT-GOOGLE-REQUEST&sensor=false&libraries=geometry,places&v=3.7", function () {
       var head = document.getElementsByTagName('head')[0],
           insertBefore = head.insertBefore;
 
